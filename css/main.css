@@ -1,0 +1,191 @@
+body, html{
+    margin: 0;
+    padding: 0;
+    font-family: 'Karla', sans-serif;
+    font-size: 16px;
+    max-width: 100%;
+
+}
+
+.container {
+    width: 100%;
+    margin: 0;
+}
+
+.top-part{
+    color: hsl(218, 22%, 67%);
+    padding: 50px 0 40px 100px;
+    width: 90%;
+
+    
+}
+.title{
+    color: hsl(179, 62%, 43%);
+    font-weight: bold;
+    font-size: 2.9rem;
+}
+.guarantee {
+    color: hsl(71, 73%, 54%);
+    font-size: 2.2rem;
+    
+}
+.left-part {
+    background-color: hsl(179, 62%, 43%);
+    color: white;
+}
+.right-part {
+    background-color: hsl(179, 45%, 58%);
+   
+}
+.right-part ul li{
+    list-style: none;
+    line-height: 2;
+    font-size: 25px; 
+}
+
+.right-part ul {
+  padding-left: 50px;
+}
+
+
+.price {
+    font-size: 5rem;
+}
+.box{
+    
+    flex-basis: 45%;
+    padding: 30px;
+    
+}
+
+.bottom-part {
+    width: 98%;
+    display: flex;
+    flex-wrap: wrap;
+    color: white;
+    margin-left: 20px;
+    margin-bottom: 40px ;
+    
+}
+
+.bottom-part h1 {
+    margin-left: 50px;
+}
+.bottom-part p {
+    margin-left: 50px;
+}
+
+.sign-up-btn {
+    background-color: hsl(71, 73%, 54%);
+    width: 80%;
+    margin: 50px auto 20px;
+    height: 60px;
+    border-radius: 8px;
+    border-style: hidden;
+    color: white;
+    cursor: pointer;
+    -webkit-box-shadow: 3px 3px 3px 3px hsl(218, 22%, 67%);
+    -moz-box-shadow:3px 3px 3px 3px hsl(218, 22%, 67%);  
+    box-shadow:  3px 3px 3px 3px hsl(218, 22%, 67%); 
+
+}
+p{
+    font-size: 30px;
+}
+
+
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    margin: 20px auto;
+    width: 80%;
+    height: 20px;
+}
+.attribution a { color: hsl(228, 45%, 44%); }
+
+
+@media screen and (max-width:376px){
+    body{
+        padding: 0;
+        margin: 0;
+        max-width: 100%;
+    }
+    .container{
+        margin: 0;
+        width: 95%;
+        padding: 0;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .title{
+        font-size: 1.3rem;
+    }
+    .top-part{
+        width: 100%;
+        padding: 10px;
+        margin: 25px;
+        font-size: 10px;
+    }
+    .top-part p{
+       font-size: 14px;
+    }
+    .guarantee{
+        font-size: 1rem;
+    }
+    .bottom-part{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        margin: 0;
+        padding: 0;
+    }
+    .left-part{
+        width: 90%;
+        flex-basis: 90%;
+    }
+    .right-part{
+        width: 90%;
+        flex-basis: 90%;
+    }
+    .bottom-part h1 {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    .price{
+        font-size: 3rem;
+    }
+    
+     .right-part ul{
+        margin-left: 0;
+        font-size: 0.5rem;
+        padding-left: 0;
+    }
+    .right-part ul li{
+        margin: 0;
+        font-size: 1rem;
+        
+    }
+     
+    .box{
+        flex-basis: 100%;
+        max-width: 100%;
+    }
+    footer{
+        width: 90%;
+    }
+
+    .bottom-part p {
+        margin-left: 0;
+        font-size: 1rem;
+    }
+    
+    .sign-up-btn{
+        width:95%;
+        margin: 20px auto auto 10px ;
+    }
+
+    .attribution{
+        width: 50%;
+    }
+}
